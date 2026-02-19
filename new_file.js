@@ -168,3 +168,21 @@ const person2 = new Person('Larissa', 'Cavalari', '6-23-1996');
 
 console.log(person2);
 console.log(person1.getFullName());
+
+const ul = document.querySelector('.items');
+
+//ul.remove();
+//ul.lastElementChild.remove();
+ul.firstElementChild.textContent = 'Testando';
+ul.children[1].innerText = 'Oi gostoso';
+ul.lastElementChild.innerHTML = '<h2>Deixa eu pegar no seu</h2>';
+
+const btn = document.querySelector('.btn');
+//btn.style.backgroundColor = 'red';
+
+btn.addEventListener('mouseout', (e) => {
+    e.preventDefault();
+    document.querySelector('#my-form').style.background = '#ccc';
+    document.querySelector('body').classList.add('bg-dark');
+    document.querySelector('.items').lastElementChild.innerHTML = '<h1>Hello</h1>';
+})
