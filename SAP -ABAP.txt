@@ -1,0 +1,5 @@
+SAP -ABAP
+
+SAP Hana é muito mais rápido que o ABAP tradicional, pois é uma plataforma de banco de dados em memória. Ele permite processar grandes volumes de dados em tempo real, 
+o que é uma vantagem significativa em comparação com o ABAP tradicional, que depende de consultas SQL para acessar os dados armazenados em disco. 
+O SAP Hana também oferece recursos avançados de análise e processamento de dados, tornando-o uma escolha popular para empresas que precisam lidar com grandes quantidades de informações.
